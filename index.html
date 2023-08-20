@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum-Kit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Drum 🥁 Kit</h1>
+    <div class="box">
+        <button onclick="w()" class="w drum">w</button>
+        <button onclick="a()" class="a drum">a</button>
+        <button onclick="s()" class="s drum">s</button>
+        <button onclick="d()" class="d drum">d</button>
+        <button onclick="j()" class="j drum">j</button>
+        <button onclick="k()" class="k drum">k</button>
+        <button onclick="l()" class="l drum">l</button>
+
+    </div>
+    <footer>Made by Km Sarika Singh</footer>
+    
+    
+    <script>
+        function w() {
+            let audio = new Audio("sound/tom-1.mp3");
+            audio.play();
+        }
+        function a() {
+            let audio = new Audio("sound/tom-2.mp3");
+            audio.play();
+        }
+        function s() {
+            let audio = new Audio("sound/tom-3.mp3");
+            audio.play();
+        }
+        function d() {
+            let audio = new Audio("sound/tom-4.mp3");
+            audio.play();
+        }
+        function j() {
+            let audio = new Audio("sound/snare.mp3");
+            audio.play();
+        }
+        function k() {
+            let audio = new Audio("sound/crash.mp3");
+            audio.play();
+        }
+        function l() {
+            let audio = new Audio("sound/kick-bass.mp3");
+            audio.play();
+        }
+    </script>
+</body>
+</html>
